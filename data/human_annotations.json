@@ -5,7 +5,7 @@
     "incoming_email": "Dear Recruiting Team,\n\nI would like to confirm my acceptance of the internship offer for the upcoming summer cohort.\n\nSincerely,\nChris Hemsworth",
     "generated_response": "Dear Chris Hemsworth,\n\nWonderful news! We are thrilled to welcome you to our summer cohort. Our onboarding team will send your welcome packet and contract details shortly.\n\nWarm regards,\nIan Malcolm\nUniversity Recruiting",
     "reference_reply": "Dear Chris Hemsworth,\n\nWonderful news! We are thrilled to welcome you to our summer cohort. Our onboarding team will send your welcome packet and contract details shortly.\n\nWarm regards,\nIan Malcolm\nUniversity Recruiting",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0684",
@@ -13,7 +13,7 @@
     "incoming_email": "Hello Diana Prince,\n\nI am an alumnus of University of Michigan working in tech leadership. I saw your profile and would love to offer career advice or network.\n\nBest,\nSarah Jenkins",
     "generated_response": "Hello Sarah Jenkins,\n\nGreat to connect with a fellow University of Michigan alum! I'd appreciate the opportunity to chat and hear about your experience in tech leadership.\n\nBest,\nDiana Prince",
     "reference_reply": "Hello Sarah Jenkins,\n\nGreat to connect with a fellow University of Michigan alum! I'd appreciate the opportunity to chat and hear about your experience in tech leadership.\n\nBest,\nDiana Prince",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0338",
@@ -21,7 +21,7 @@
     "incoming_email": "Hi Hannah Abbott,\n\nI wanted to follow up on the status of our ticket #58840. Any updates from engineering?\n\nThanks,\nLaura Palmer",
     "generated_response": "Hi Laura Palmer,\n\nEngineering is actively investigating ticket #58840. We expect a patch release later today and will notify you immediately.\n\nThanks,\nHannah Abbott",
     "reference_reply": "Hi Laura Palmer,\n\nEngineering is actively investigating ticket #58840. We expect a patch release later today and will notify you immediately.\n\nThanks,\nHannah Abbott",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0050",
@@ -29,7 +29,7 @@
     "incoming_email": "Hi Diana Prince,\n\nI noticed a conflict with our scheduled meeting on Monday at 3:00 PM. Can we reschedule to later in the week?\n\nThanks,\nEmily Watson",
     "generated_response": "Hi Emily Watson,\n\nNo problem at all. How about we reschedule to next Friday at 11:30 AM? Let me know if that suits your schedule.\n\nBest,\nDiana Prince",
     "reference_reply": "Hi Emily Watson,\n\nNo problem at all. How about we reschedule to next Friday at 11:30 AM? Let me know if that suits your schedule.\n\nBest,\nDiana Prince",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0601",
@@ -37,7 +37,7 @@
     "incoming_email": "Hi Evan Wright,\n\nYou are cordially invited to speak at our annual Tech Leadership conference on October 24th. We would be honored to have your insights.\n\nBest regards,\nDavid Miller",
     "generated_response": "Hi David Miller,\n\nThank you so much for the invitation! I would be delighted to speak at the Tech Leadership conference on October 24th. Please send over the speaker guidelines.\n\nWarm regards,\nEvan Wright",
     "reference_reply": "Hi David Miller,\n\nThank you so much for the invitation! I would be delighted to speak at the Tech Leadership conference on October 24th. Please send over the speaker guidelines.\n\nWarm regards,\nEvan Wright",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0098",
@@ -45,7 +45,7 @@
     "incoming_email": "Dear Team,\n\nMy account access was blocked after entering the wrong password. Could you please unlock account jessica.t@partnercorp.org?\n\nThanks,\nMichael Scott",
     "generated_response": "Dear Michael Scott,\n\nI have unlocked your account (jessica.t@partnercorp.org) and triggered a password reset link to your registered email. Please follow the link to set a new password.\n\nRegards,\nDiana Prince\nTechnical Support",
     "reference_reply": "Dear Michael Scott,\n\nI have unlocked your account (jessica.t@partnercorp.org) and triggered a password reset link to your registered email. Please follow the link to set a new password.\n\nRegards,\nDiana Prince\nTechnical Support",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0209",
@@ -53,7 +53,7 @@
     "incoming_email": "Hi Bob Jones,\n\nI would like to request annual leave from October 12th to December 30th for personal reasons. I will ensure my pending tasks are handed over to Mark Davis.\n\nBest,\nDavid Miller",
     "generated_response": "Hi David Miller,\n\nYour leave request from October 12th to December 30th has been approved. Please make sure Mark Davis has access to all necessary files before you head out.\n\nBest,\nBob Jones",
     "reference_reply": "Hi David Miller,\n\nYour leave request from October 12th to December 30th has been approved. Please make sure Mark Davis has access to all necessary files before you head out.\n\nBest,\nBob Jones",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0414",
@@ -61,7 +61,7 @@
     "incoming_email": "Hi George Clark,\n\nWe noticed an unexpected charge of $500 on our monthly invoice #57395. Could you clarify what this is for?\n\nThanks,\nLaura Palmer",
     "generated_response": "Hi Laura Palmer,\n\nThank you for flagging this. The $500 charge on invoice #57395 was due to additional compute seat usage last month. I have attached the detailed usage breakdown.\n\nBest,\nGeorge Clark",
     "reference_reply": "Hi Laura Palmer,\n\nThank you for flagging this. The $500 charge on invoice #57395 was due to additional compute seat usage last month. I have attached the detailed usage breakdown.\n\nBest,\nGeorge Clark",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0514",
@@ -69,7 +69,7 @@
     "incoming_email": "Dear Julia Roberts,\n\nPlease accept our sincere apologies for the service outage on last Tuesday. We have taken measures to prevent recurrence.\n\nRegards,\nDaniel Kim",
     "generated_response": "Dear Daniel Kim,\n\nThank you for the transparent communication and root-cause summary. We appreciate your team's quick resolution.\n\nRegards,\nJulia Roberts",
     "reference_reply": "Dear Daniel Kim,\n\nThank you for the transparent communication and root-cause summary. We appreciate your team's quick resolution.\n\nRegards,\nJulia Roberts",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0249",
@@ -77,7 +77,7 @@
     "incoming_email": "Hello Bob Jones,\n\nThe weekly status report for the onboarding flow experiment is now available on the internal portal. Key metric: conversion increased by 23%.\n\nBest,\nChris Hemsworth",
     "generated_response": "Hello Chris Hemsworth,\n\nExcellent results on the 23% conversion bump! Thank you for sharing the report.\n\nBest regards,\nBob Jones",
     "reference_reply": "Hello Chris Hemsworth,\n\nExcellent results on the 23% conversion bump! Thank you for sharing the report.\n\nBest regards,\nBob Jones",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0485",
@@ -85,7 +85,7 @@
     "incoming_email": "Dear Charlie Brown,\n\nI sincerely apologize for missing our meeting scheduled for yesterday afternoon at 7:00 PM. An urgent client emergency required my immediate attention.\n\nSincerely,\nLaura Palmer",
     "generated_response": "Dear Laura Palmer,\n\nNo worries at all, I completely understand that urgent matters come up. Let me know when you'd like to reschedule.\n\nBest regards,\nCharlie Brown",
     "reference_reply": "Dear Laura Palmer,\n\nNo worries at all, I completely understand that urgent matters come up. Let me know when you'd like to reschedule.\n\nBest regards,\nCharlie Brown",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0136",
@@ -93,7 +93,7 @@
     "incoming_email": "Hello Support Team,\n\nI am experiencing an issue with order #60615. The items received do not match my receipt. Please assist.\n\nThanks,\nChris Hemsworth",
     "generated_response": "Hello Chris Hemsworth,\n\nThank you for bringing this to our attention. We apologize for the error with order #60615. We have initiated a replacement shipment today, and you will receive tracking information shortly.\n\nBest regards,\nGeorge Clark\nCustomer Support",
     "reference_reply": "Hello Chris Hemsworth,\n\nThank you for bringing this to our attention. We apologize for the error with order #60615. We have initiated a replacement shipment today, and you will receive tracking information shortly.\n\nBest regards,\nGeorge Clark\nCustomer Support",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0220",
@@ -101,7 +101,7 @@
     "incoming_email": "Hi Hannah Abbott,\n\nI am requesting 2 days of emergency leave starting tomorrow due to a family matter.\n\nThanks,\nJessica Taylor",
     "generated_response": "Hi Jessica Taylor,\n\nApproved. Please take care of your family matter. Let me know if you need any additional time off.\n\nBest regards,\nHannah Abbott",
     "reference_reply": "Hi Jessica Taylor,\n\nApproved. Please take care of your family matter. Let me know if you need any additional time off.\n\nBest regards,\nHannah Abbott",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0590",
@@ -109,7 +109,7 @@
     "incoming_email": "Hi Alice Smith,\n\nYou are invited to join the advisory panel for Open Source AI Initiative. Would you be open to a 20-minute onboarding call?\n\nBest,\nAlex Rivera",
     "generated_response": "Hi Alex Rivera,\n\nI am honored by the invitation to join the advisory panel. I am happy to hop on an onboarding call next week.\n\nBest,\nAlice Smith",
     "reference_reply": "Hi Alex Rivera,\n\nI am honored by the invitation to join the advisory panel. I am happy to hop on an onboarding call next week.\n\nBest,\nAlice Smith",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0286",
@@ -117,7 +117,7 @@
     "incoming_email": "Dear Bob Jones,\n\nUnfortunately, we encountered a blocker on the authentication module due to third-party API latency. We may experience a 2-day delay.\n\nRegards,\nEmily Watson",
     "generated_response": "Dear Emily Watson,\n\nThank you for flagging this early. Let's discuss mitigation options during tomorrow's standup. Keep us updated on vendor responses.\n\nRegards,\nBob Jones",
     "reference_reply": "Dear Emily Watson,\n\nThank you for flagging this early. Let's discuss mitigation options during tomorrow's standup. Keep us updated on vendor responses.\n\nRegards,\nBob Jones",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0244",
@@ -125,7 +125,7 @@
     "incoming_email": "Hi Hannah Abbott,\n\nHere is a quick update on the payment gateway integration: phase 1 is complete and we are starting phase 2 ahead of schedule.\n\nBest,\nSarah Jenkins",
     "generated_response": "Hi Sarah Jenkins,\n\nGreat progress! Thanks to the team for the hard work. Please keep me posted on the phase 2 benchmarks.\n\nBest,\nHannah Abbott",
     "reference_reply": "Hi Sarah Jenkins,\n\nGreat progress! Thanks to the team for the hard work. Please keep me posted on the phase 2 benchmarks.\n\nBest,\nHannah Abbott",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0526",
@@ -133,7 +133,7 @@
     "incoming_email": "Dear Charlie Brown,\n\nI sincerely apologize for missing our meeting scheduled for this morning at 2:00 AM. An urgent client emergency required my immediate attention.\n\nSincerely,\nChris Hemsworth",
     "generated_response": "Dear Chris Hemsworth,\n\nNo worries at all, I completely understand that urgent matters come up. Let me know when you'd like to reschedule.\n\nBest regards,\nCharlie Brown",
     "reference_reply": "Dear Chris Hemsworth,\n\nNo worries at all, I completely understand that urgent matters come up. Let me know when you'd like to reschedule.\n\nBest regards,\nCharlie Brown",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0339",
@@ -141,7 +141,7 @@
     "incoming_email": "Hello Evan Wright,\n\nFollowing up on the decision for the Q4 hiring plan. The team is waiting for approval to proceed.\n\nBest,\nDaniel Kim",
     "generated_response": "Hello Daniel Kim,\n\nApologies for the delay! The proposal for the Q4 hiring plan is approved. You have green light to move forward.\n\nBest,\nEvan Wright",
     "reference_reply": "Hello Daniel Kim,\n\nApologies for the delay! The proposal for the Q4 hiring plan is approved. You have green light to move forward.\n\nBest,\nEvan Wright",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0630",
@@ -149,7 +149,7 @@
     "incoming_email": "Hi Diana Prince,\n\nCould you clarify the SLA guaranteed uptime for our enterprise instance?\n\nThanks,\nDaniel Kim",
     "generated_response": "Hi Daniel Kim,\n\nOur enterprise tier guarantees a 99.9% uptime SLA with 24/7 dedicated support and a 15-minute response time for critical issues.\n\nThanks,\nDiana Prince",
     "reference_reply": "Hi Daniel Kim,\n\nOur enterprise tier guarantees a 99.9% uptime SLA with 24/7 dedicated support and a 15-minute response time for critical issues.\n\nThanks,\nDiana Prince",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0070",
@@ -157,7 +157,7 @@
     "incoming_email": "Hi Bob Jones,\n\nI noticed a conflict with our scheduled meeting on Wednesday at 5:00 AM. Can we reschedule to later in the week?\n\nThanks,\nEmily Watson",
     "generated_response": "Hi Emily Watson,\n\nNo problem at all. How about we reschedule to next Friday at 3:30 PM? Let me know if that suits your schedule.\n\nBest,\nBob Jones",
     "reference_reply": "Hi Emily Watson,\n\nNo problem at all. How about we reschedule to next Friday at 3:30 PM? Let me know if that suits your schedule.\n\nBest,\nBob Jones",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0631",
@@ -165,7 +165,7 @@
     "incoming_email": "Hello Julia Roberts,\n\nCan you explain the retention policy for user data on our platform?\n\nBest,\nDavid Miller",
     "generated_response": "Hello David Miller,\n\nOur data retention policy keeps active user data for the duration of the account plus 30 days post-cancellation, after which it is permanently purged per GDPR compliance.\n\nBest,\nJulia Roberts",
     "reference_reply": "Hello David Miller,\n\nOur data retention policy keeps active user data for the duration of the account plus 30 days post-cancellation, after which it is permanently purged per GDPR compliance.\n\nBest,\nJulia Roberts",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0061",
@@ -173,7 +173,7 @@
     "incoming_email": "Hi Charlie Brown,\n\nCan we move our recurring one-on-one from Wednesday to next Friday? Something urgent came up.\n\nThanks,\nAlex Rivera",
     "generated_response": "Hi Alex Rivera,\n\nSure, moving our 1:1 to next Friday works fine for me. I've updated my calendar.\n\nBest,\nCharlie Brown",
     "reference_reply": "Hi Alex Rivera,\n\nSure, moving our 1:1 to next Friday works fine for me. I've updated my calendar.\n\nBest,\nCharlie Brown",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0073",
@@ -181,7 +181,7 @@
     "incoming_email": "Hi Evan Wright,\n\nCan we move our recurring one-on-one from Wednesday to next Friday? Something urgent came up.\n\nThanks,\nJessica Taylor",
     "generated_response": "Hi Jessica Taylor,\n\nSure, moving our 1:1 to next Friday works fine for me. I've updated my calendar.\n\nBest,\nEvan Wright",
     "reference_reply": "Hi Jessica Taylor,\n\nSure, moving our 1:1 to next Friday works fine for me. I've updated my calendar.\n\nBest,\nEvan Wright",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0008",
@@ -189,7 +189,7 @@
     "incoming_email": "Dear Hannah Abbott,\n\nWe need to discuss the urgent updates on the vendor contract renewal. Could we meet today or tomorrow?\n\nRegards,\nDaniel Kim",
     "generated_response": "Dear Daniel Kim,\n\nI can make time today at 3:00 AM or tomorrow at 12:30 PM. Please confirm which works for you.\n\nRegards,\nHannah Abbott",
     "reference_reply": "Dear Daniel Kim,\n\nI can make time today at 3:00 AM or tomorrow at 12:30 PM. Please confirm which works for you.\n\nRegards,\nHannah Abbott",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0694",
@@ -197,7 +197,7 @@
     "incoming_email": "Hello Bob Jones,\n\nI am an alumnus of University of Michigan working in tech leadership. I saw your profile and would love to offer career advice or network.\n\nBest,\nDavid Miller",
     "generated_response": "Hello David Miller,\n\nGreat to connect with a fellow University of Michigan alum! I'd appreciate the opportunity to chat and hear about your experience in tech leadership.\n\nBest,\nBob Jones",
     "reference_reply": "Hello David Miller,\n\nGreat to connect with a fellow University of Michigan alum! I'd appreciate the opportunity to chat and hear about your experience in tech leadership.\n\nBest,\nBob Jones",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0236",
@@ -205,7 +205,7 @@
     "incoming_email": "Hi Hannah Abbott,\n\nI am requesting 2 days of emergency leave starting tomorrow due to a family matter.\n\nThanks,\nChris Hemsworth",
     "generated_response": "Hi Chris Hemsworth,\n\nApproved. Please take care of your family matter. Let me know if you need any additional time off.\n\nBest regards,\nHannah Abbott",
     "reference_reply": "Hi Chris Hemsworth,\n\nApproved. Please take care of your family matter. Let me know if you need any additional time off.\n\nBest regards,\nHannah Abbott",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0022",
@@ -213,7 +213,7 @@
     "incoming_email": "Hi Fiona Gallagher,\n\nCan we set up a quick 30-minute sync regarding the Q3 roadmap alignment? Please let me know your availability for this Tuesday.\n\nBest,\nDavid Miller",
     "generated_response": "Hi David Miller,\n\nThanks for reaching out. I'm available on this Tuesday between 11:00 AM - 1:00 PM. Let me know what time works best for you and send over an invite.\n\nBest regards,\nFiona Gallagher",
     "reference_reply": "Hi David Miller,\n\nThanks for reaching out. I'm available on this Tuesday between 11:00 AM - 1:00 PM. Let me know what time works best for you and send over an invite.\n\nBest regards,\nFiona Gallagher",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0347",
@@ -221,7 +221,7 @@
     "incoming_email": "Hi Diana Prince,\n\nFollowing up on my previous email regarding the feature request proposal. Have you had a chance to look into this?\n\nBest,\nDavid Miller",
     "generated_response": "Hi David Miller,\n\nThanks for following up. I am currently reviewing the feature request proposal and will provide a full response by EOD today.\n\nBest regards,\nDiana Prince",
     "reference_reply": "Hi David Miller,\n\nThanks for following up. I am currently reviewing the feature request proposal and will provide a full response by EOD today.\n\nBest regards,\nDiana Prince",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0596",
@@ -229,7 +229,7 @@
     "incoming_email": "Dear Alice Smith,\n\nPlease join us for our team celebratory dinner this Friday at 7 PM at Bistro Central.\n\nBest,\nMichael Scott",
     "generated_response": "Dear Michael Scott,\n\nThanks for inviting me! I will definitely be there to celebrate with the team at Bistro Central on Friday.\n\nBest regards,\nAlice Smith",
     "reference_reply": "Dear Michael Scott,\n\nThanks for inviting me! I will definitely be there to celebrate with the team at Bistro Central on Friday.\n\nBest regards,\nAlice Smith",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0231",
@@ -237,7 +237,7 @@
     "incoming_email": "Hi Hannah Abbott,\n\nI would like to request annual leave from November 3rd to October 16th for personal reasons. I will ensure my pending tasks are handed over to Kevin Zhang.\n\nBest,\nSarah Jenkins",
     "generated_response": "Hi Sarah Jenkins,\n\nYour leave request from November 3rd to October 16th has been approved. Please make sure Kevin Zhang has access to all necessary files before you head out.\n\nBest,\nHannah Abbott",
     "reference_reply": "Hi Sarah Jenkins,\n\nYour leave request from November 3rd to October 16th has been approved. Please make sure Kevin Zhang has access to all necessary files before you head out.\n\nBest,\nHannah Abbott",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0254",
@@ -245,7 +245,7 @@
     "incoming_email": "Hi Charlie Brown,\n\nAll QA tests for the billing fix patch passed successfully. We are ready to deploy to production tomorrow at 10 AM.\n\nThanks,\nRachel Green",
     "generated_response": "Hi Rachel Green,\n\nAwesome news! Green light for production deployment tomorrow at 10 AM. I will be on standby.\n\nThanks,\nCharlie Brown",
     "reference_reply": "Hi Rachel Green,\n\nAwesome news! Green light for production deployment tomorrow at 10 AM. I will be on standby.\n\nThanks,\nCharlie Brown",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0124",
@@ -253,7 +253,7 @@
     "incoming_email": "Hello,\n\nIs it possible to upgrade my monthly subscription to an annual enterprise plan for account #47627?\n\nBest,\nDavid Miller",
     "generated_response": "Hello David Miller,\n\nYes, absolutely! I have upgraded your subscription for account #47627 to our Annual Enterprise Plan. A pro-rated invoice has been emailed to you.\n\nBest regards,\nHannah Abbott\nCustomer Success",
     "reference_reply": "Hello David Miller,\n\nYes, absolutely! I have upgraded your subscription for account #47627 to our Annual Enterprise Plan. A pro-rated invoice has been emailed to you.\n\nBest regards,\nHannah Abbott\nCustomer Success",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0463",
@@ -261,7 +261,7 @@
     "incoming_email": "Hi Support,\n\nIs there an ongoing outage on the Search API? Response times are taking over 10 seconds.\n\nThanks,\nDaniel Kim",
     "generated_response": "Hi Daniel Kim,\n\nYes, we experienced elevated latency on the Search API due to a traffic spike. Auto-scaling has added capacity and latency is back below 200ms.\n\nThanks,\nIan Malcolm\nSite Reliability Engineer",
     "reference_reply": "Hi Daniel Kim,\n\nYes, we experienced elevated latency on the Search API due to a traffic spike. Auto-scaling has added capacity and latency is back below 200ms.\n\nThanks,\nIan Malcolm\nSite Reliability Engineer",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0530",
@@ -269,7 +269,7 @@
     "incoming_email": "Dear Julia Roberts,\n\nPlease confirm your attendance at the annual strategy summit on November 15th.\n\nBest,\nAlex Rivera",
     "generated_response": "Dear Alex Rivera,\n\nI am pleased to confirm my attendance at the annual strategy summit on November 15th. Looking forward to it.\n\nBest regards,\nJulia Roberts",
     "reference_reply": "Dear Alex Rivera,\n\nI am pleased to confirm my attendance at the annual strategy summit on November 15th. Looking forward to it.\n\nBest regards,\nJulia Roberts",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0449",
@@ -277,7 +277,7 @@
     "incoming_email": "Hello Alice Smith,\n\nThe nightly data synchronization pipeline failed at 03:00 AM with exit code 1.\n\nBest,\nJessica Taylor",
     "generated_response": "Hello Jessica Taylor,\n\nThanks for flagging. The pipeline failure was caused by a malformed schema in incoming raw logs. I re-ran the job after filtering bad records and sync is complete.\n\nBest,\nAlice Smith\nData Operations",
     "reference_reply": "Hello Jessica Taylor,\n\nThanks for flagging. The pipeline failure was caused by a malformed schema in incoming raw logs. I re-ran the job after filtering bad records and sync is complete.\n\nBest,\nAlice Smith\nData Operations",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0569",
@@ -285,7 +285,7 @@
     "incoming_email": "Hi Evan Wright,\n\nPlease confirm if the wire transfer of $10,000 for invoice #69616 was received by your bank.\n\nThanks,\nMichael Scott",
     "generated_response": "Hi Michael Scott,\n\nYes, we confirm receipt of the $10,000 wire transfer for invoice #69616. Thank you for the quick payment settlement.\n\nBest,\nEvan Wright",
     "reference_reply": "Hi Michael Scott,\n\nYes, we confirm receipt of the $10,000 wire transfer for invoice #69616. Thank you for the quick payment settlement.\n\nBest,\nEvan Wright",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0608",
@@ -293,7 +293,7 @@
     "incoming_email": "Hi Ian Malcolm,\n\nYou are invited to join the advisory panel for Startup Incubator Program. Would you be open to a 20-minute onboarding call?\n\nBest,\nSarah Jenkins",
     "generated_response": "Hi Sarah Jenkins,\n\nI am honored by the invitation to join the advisory panel. I am happy to hop on an onboarding call next week.\n\nBest,\nIan Malcolm",
     "reference_reply": "Hi Sarah Jenkins,\n\nI am honored by the invitation to join the advisory panel. I am happy to hop on an onboarding call next week.\n\nBest,\nIan Malcolm",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0320",
@@ -301,7 +301,7 @@
     "incoming_email": "Hi Julia Roberts,\n\nCould you please share the latest version of the Client Onboarding Deck? We need it for the client review.\n\nThanks,\nDaniel Kim",
     "generated_response": "Hi Daniel Kim,\n\nI have attached the updated Client Onboarding Deck to this email. Let me know if you need any additional sections added.\n\nBest,\nJulia Roberts",
     "reference_reply": "Hi Daniel Kim,\n\nI have attached the updated Client Onboarding Deck to this email. Let me know if you need any additional sections added.\n\nBest,\nJulia Roberts",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0206",
@@ -309,7 +309,7 @@
     "incoming_email": "Hi George Clark,\n\nI am requesting 2 days of emergency leave starting tomorrow due to a family matter.\n\nThanks,\nDavid Miller",
     "generated_response": "Hi David Miller,\n\nApproved. Please take care of your family matter. Let me know if you need any additional time off.\n\nBest regards,\nGeorge Clark",
     "reference_reply": "Hi David Miller,\n\nApproved. Please take care of your family matter. Let me know if you need any additional time off.\n\nBest regards,\nGeorge Clark",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0625",
@@ -317,7 +317,7 @@
     "incoming_email": "Dear Evan Wright,\n\nWhat are the system requirements for installing the software version v5.0-beta?\n\nRegards,\nLaura Palmer",
     "generated_response": "Dear Laura Palmer,\n\nVersion v5.0-beta requires 64-bit OS (Linux/Windows/macOS), at least 8GB RAM, 4 CPU cores, and Python 3.10+. Full specs are available on our documentation page.\n\nRegards,\nEvan Wright",
     "reference_reply": "Dear Laura Palmer,\n\nVersion v5.0-beta requires 64-bit OS (Linux/Windows/macOS), at least 8GB RAM, 4 CPU cores, and Python 3.10+. Full specs are available on our documentation page.\n\nRegards,\nEvan Wright",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0434",
@@ -325,7 +325,7 @@
     "incoming_email": "Hi Tech Support,\n\nOur users are reporting a 500 error when submitting the checkout form on the customer portal. Please investigate urgently.\n\nThanks,\nDavid Miller",
     "generated_response": "Hi David Miller,\n\nWe identified the issue causing 500 errors on the customer portal—it was a database connection pool exhaustion. A hotfix has been deployed and checkout is restored.\n\nBest regards,\nIan Malcolm\nDevOps Team",
     "reference_reply": "Hi David Miller,\n\nWe identified the issue causing 500 errors on the customer portal—it was a database connection pool exhaustion. A hotfix has been deployed and checkout is restored.\n\nBest regards,\nIan Malcolm\nDevOps Team",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0541",
@@ -333,7 +333,7 @@
     "incoming_email": "Hi George Clark,\n\nPlease confirm if the wire transfer of $4,750 for invoice #44690 was received by your bank.\n\nThanks,\nJessica Taylor",
     "generated_response": "Hi Jessica Taylor,\n\nYes, we confirm receipt of the $4,750 wire transfer for invoice #44690. Thank you for the quick payment settlement.\n\nBest,\nGeorge Clark",
     "reference_reply": "Hi Jessica Taylor,\n\nYes, we confirm receipt of the $4,750 wire transfer for invoice #44690. Thank you for the quick payment settlement.\n\nBest,\nGeorge Clark",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0701",
@@ -341,7 +341,7 @@
     "incoming_email": "Hi Charlie Brown,\n\nI came across your work on distributed database architectures and was impressed by your recent talk. I'd love to connect and exchange ideas.\n\nBest,\nAlex Rivera",
     "generated_response": "Hi Alex Rivera,\n\nThank you for reaching out! I'm always glad to connect with fellow professionals passionate about distributed database architectures. Let's stay in touch.\n\nBest regards,\nCharlie Brown",
     "reference_reply": "Hi Alex Rivera,\n\nThank you for reaching out! I'm always glad to connect with fellow professionals passionate about distributed database architectures. Let's stay in touch.\n\nBest regards,\nCharlie Brown",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0170",
@@ -349,7 +349,7 @@
     "incoming_email": "Dear Charlie Brown,\n\nI am following up on my interview for the Full Stack Engineer role held on last Tuesday. Could you provide any status update?\n\nThanks,\nDaniel Kim",
     "generated_response": "Dear Daniel Kim,\n\nThank you for following up. The hiring manager is currently finalizing evaluations. I hope to share formal feedback with you by next Friday.\n\nRegards,\nCharlie Brown\nHR Partner",
     "reference_reply": "Dear Daniel Kim,\n\nThank you for following up. The hiring manager is currently finalizing evaluations. I hope to share formal feedback with you by next Friday.\n\nRegards,\nCharlie Brown\nHR Partner",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0487",
@@ -357,7 +357,7 @@
     "incoming_email": "Dear Fiona Gallagher,\n\nPlease accept our sincere apologies for the service outage on last Tuesday. We have taken measures to prevent recurrence.\n\nRegards,\nSarah Jenkins",
     "generated_response": "Dear Sarah Jenkins,\n\nThank you for the transparent communication and root-cause summary. We appreciate your team's quick resolution.\n\nRegards,\nFiona Gallagher",
     "reference_reply": "Dear Sarah Jenkins,\n\nThank you for the transparent communication and root-cause summary. We appreciate your team's quick resolution.\n\nRegards,\nFiona Gallagher",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0132",
@@ -365,7 +365,7 @@
     "incoming_email": "Hi,\n\nI submitted a refund request for invoice #33703 5 days ago, but I haven't received any confirmation or update.\n\nRegards,\nDaniel Kim",
     "generated_response": "Hi Daniel Kim,\n\nThank you for reaching out. I checked your account status for invoice #33703. The refund was processed yesterday and should reflect in your account within 3-5 business days.\n\nBest,\nJulia Roberts\nSupport Specialist",
     "reference_reply": "Hi Daniel Kim,\n\nThank you for reaching out. I checked your account status for invoice #33703. The refund was processed yesterday and should reflect in your account within 3-5 business days.\n\nBest,\nJulia Roberts\nSupport Specialist",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0129",
@@ -373,7 +373,7 @@
     "incoming_email": "Hi,\n\nI submitted a refund request for invoice #87993 5 days ago, but I haven't received any confirmation or update.\n\nRegards,\nAlex Rivera",
     "generated_response": "Hi Alex Rivera,\n\nThank you for reaching out. I checked your account status for invoice #87993. The refund was processed yesterday and should reflect in your account within 3-5 business days.\n\nBest,\nFiona Gallagher\nSupport Specialist",
     "reference_reply": "Hi Alex Rivera,\n\nThank you for reaching out. I checked your account status for invoice #87993. The refund was processed yesterday and should reflect in your account within 3-5 business days.\n\nBest,\nFiona Gallagher\nSupport Specialist",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0546",
@@ -381,7 +381,7 @@
     "incoming_email": "Hello George Clark,\n\nJust confirming that order #80074 has been processed for delivery.\n\nRegards,\nDavid Miller",
     "generated_response": "Hello David Miller,\n\nThank you for the confirmation regarding order #80074. We look forward to receiving the shipment.\n\nRegards,\nGeorge Clark",
     "reference_reply": "Hello David Miller,\n\nThank you for the confirmation regarding order #80074. We look forward to receiving the shipment.\n\nRegards,\nGeorge Clark",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0071",
@@ -389,7 +389,7 @@
     "incoming_email": "Hello Evan Wright,\n\nCould you send over calendar invites for the candidate interview loop scheduled for next Friday?\n\nRegards,\nMichael Scott",
     "generated_response": "Hello Michael Scott,\n\nI have sent out the invites to all panel members for next Friday. Let me know if you need any changes.\n\nRegards,\nEvan Wright",
     "reference_reply": "Hello Michael Scott,\n\nI have sent out the invites to all panel members for next Friday. Let me know if you need any changes.\n\nRegards,\nEvan Wright",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0498",
@@ -397,7 +397,7 @@
     "incoming_email": "Dear Diana Prince,\n\nI sincerely apologize for missing our meeting scheduled for yesterday afternoon at 5:00 PM. An urgent client emergency required my immediate attention.\n\nSincerely,\nAlex Rivera",
     "generated_response": "Dear Alex Rivera,\n\nNo worries at all, I completely understand that urgent matters come up. Let me know when you'd like to reschedule.\n\nBest regards,\nDiana Prince",
     "reference_reply": "Dear Alex Rivera,\n\nNo worries at all, I completely understand that urgent matters come up. Let me know when you'd like to reschedule.\n\nBest regards,\nDiana Prince",
-    "human_quality_score": null
+    "human_quality_score": 4
   },
   {
     "id": "EML-0088",
@@ -405,7 +405,7 @@
     "incoming_email": "Hi Julia Roberts,\n\nI noticed a conflict with our scheduled meeting on Tuesday at 6:00 AM. Can we reschedule to later in the week?\n\nThanks,\nRachel Green",
     "generated_response": "Hi Rachel Green,\n\nNo problem at all. How about we reschedule to next Friday at 11:30 AM? Let me know if that suits your schedule.\n\nBest,\nJulia Roberts",
     "reference_reply": "Hi Rachel Green,\n\nNo problem at all. How about we reschedule to next Friday at 11:30 AM? Let me know if that suits your schedule.\n\nBest,\nJulia Roberts",
-    "human_quality_score": null
+    "human_quality_score": 3
   },
   {
     "id": "EML-0669",
@@ -413,7 +413,7 @@
     "incoming_email": "Hello Ian Malcolm,\n\nCan you explain the retention policy for user data on our platform?\n\nBest,\nSarah Jenkins",
     "generated_response": "Hello Sarah Jenkins,\n\nOur data retention policy keeps active user data for the duration of the account plus 30 days post-cancellation, after which it is permanently purged per GDPR compliance.\n\nBest,\nIan Malcolm",
     "reference_reply": "Hello Sarah Jenkins,\n\nOur data retention policy keeps active user data for the duration of the account plus 30 days post-cancellation, after which it is permanently purged per GDPR compliance.\n\nBest,\nIan Malcolm",
-    "human_quality_score": null
+    "human_quality_score": 3
   },
   {
     "id": "EML-0247",
@@ -421,7 +421,7 @@
     "incoming_email": "Hello Diana Prince,\n\nThe weekly status report for the onboarding flow experiment is now available on the internal portal. Key metric: conversion increased by 29%.\n\nBest,\nDaniel Kim",
     "generated_response": "Hello Daniel Kim,\n\nExcellent results on the 29% conversion bump! Thank you for sharing the report.\n\nBest regards,\nDiana Prince",
     "reference_reply": "Hello Daniel Kim,\n\nExcellent results on the 29% conversion bump! Thank you for sharing the report.\n\nBest regards,\nDiana Prince",
-    "human_quality_score": null
+    "human_quality_score": 3
   },
   {
     "id": "EML-0060",
@@ -429,7 +429,7 @@
     "incoming_email": "Dear Diana Prince,\n\nPlease let me know your available slots for the upcoming Design Systems workshop next week.\n\nBest,\nEmily Watson",
     "generated_response": "Dear Emily Watson,\n\nI am available on Tuesday from 9:00 AM to 12:00 PM and Thursday after 2:00 PM. Please feel free to schedule accordingly.\n\nBest regards,\nDiana Prince",
     "reference_reply": "Dear Emily Watson,\n\nI am available on Tuesday from 9:00 AM to 12:00 PM and Thursday after 2:00 PM. Please feel free to schedule accordingly.\n\nBest regards,\nDiana Prince",
-    "human_quality_score": null
+    "human_quality_score": 3
   },
   {
     "id": "EML-0246",
@@ -437,7 +437,7 @@
     "incoming_email": "Hello Ian Malcolm,\n\nThe weekly status report for the Q3 marketing campaign is now available on the internal portal. Key metric: conversion increased by 20%.\n\nBest,\nSarah Jenkins",
     "generated_response": "Hello Sarah Jenkins,\n\nExcellent results on the 20% conversion bump! Thank you for sharing the report.\n\nBest regards,\nIan Malcolm",
     "reference_reply": "Hello Sarah Jenkins,\n\nExcellent results on the 20% conversion bump! Thank you for sharing the report.\n\nBest regards,\nIan Malcolm",
-    "human_quality_score": null
+    "human_quality_score": 3
   },
   {
     "id": "EML-0315",
@@ -445,7 +445,7 @@
     "incoming_email": "Hi Evan Wright,\n\nCould you please share the latest version of the Security Compliance Report? We need it for the client review.\n\nThanks,\nDavid Miller",
     "generated_response": "Hi David Miller,\n\nI have attached the updated Security Compliance Report to this email. Let me know if you need any additional sections added.\n\nBest,\nEvan Wright",
     "reference_reply": "Hi David Miller,\n\nI have attached the updated Security Compliance Report to this email. Let me know if you need any additional sections added.\n\nBest,\nEvan Wright",
-    "human_quality_score": null
+    "human_quality_score": 3
   },
   {
     "id": "EML-0372",
@@ -453,7 +453,7 @@
     "incoming_email": "Hi Fiona Gallagher,\n\nI wanted to follow up on the status of our ticket #26152. Any updates from engineering?\n\nThanks,\nDavid Miller",
     "generated_response": "Hi David Miller,\n\nEngineering is actively investigating ticket #26152. We expect a patch release later today and will notify you immediately.\n\nThanks,\nFiona Gallagher",
     "reference_reply": "Hi David Miller,\n\nEngineering is actively investigating ticket #26152. We expect a patch release later today and will notify you immediately.\n\nThanks,\nFiona Gallagher",
-    "human_quality_score": null
+    "human_quality_score": 3
   },
   {
     "id": "EML-0584",
@@ -461,7 +461,7 @@
     "incoming_email": "Hi Fiona Gallagher,\n\nYou are invited to join the advisory panel for Open Source AI Initiative. Would you be open to a 20-minute onboarding call?\n\nBest,\nSarah Jenkins",
     "generated_response": "Hi Sarah Jenkins,\n\nI am honored by the invitation to join the advisory panel. I am happy to hop on an onboarding call next week.\n\nBest,\nFiona Gallagher",
     "reference_reply": "Hi Sarah Jenkins,\n\nI am honored by the invitation to join the advisory panel. I am happy to hop on an onboarding call next week.\n\nBest,\nFiona Gallagher",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0020",
@@ -469,7 +469,7 @@
     "incoming_email": "Hi Bob Jones,\n\nCan we set up a quick 30-minute sync regarding the marketing budget approval? Please let me know your availability for this Tuesday.\n\nBest,\nEmily Watson",
     "generated_response": "Hi Emily Watson,\n\nThanks for reaching out. I'm available on this Tuesday between 2:00 PM - 4:00 PM. Let me know what time works best for you and send over an invite.\n\nBest regards,\nBob Jones",
     "reference_reply": "Hi Emily Watson,\n\nThanks for reaching out. I'm available on this Tuesday between 2:00 PM - 4:00 PM. Let me know what time works best for you and send over an invite.\n\nBest regards,\nBob Jones",
-    "human_quality_score": null
+    "human_quality_score": 5
   },
   {
     "id": "EML-0501",
@@ -477,6 +477,6 @@
     "incoming_email": "Hello Ian Malcolm,\n\nI apologize for the delay in responding to your email regarding the conference sponsorship.\n\nBest regards,\nChris Hemsworth",
     "generated_response": "Hello Chris Hemsworth,\n\nThanks for getting back to me! No problem about the delay. Let's proceed with the conference sponsorship.\n\nBest regards,\nIan Malcolm",
     "reference_reply": "Hello Chris Hemsworth,\n\nThanks for getting back to me! No problem about the delay. Let's proceed with the conference sponsorship.\n\nBest regards,\nIan Malcolm",
-    "human_quality_score": null
+    "human_quality_score": 5
   }
 ]
