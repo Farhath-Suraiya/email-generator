@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Email Suggested-Response System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+        </div>
+        <div>
+          <h1>AI Email Suggested-Response System</h1>
+          <p class="subtitle">Grounding generation on historical email context with multi-dimensional quality metrics</p>
+        </div>
+      </div>
+      <div class="header-badge">
+        <span class="badge-dot"></span>
+        <span>Human-in-the-Loop • Suggested Assistant</span>
+      </div>
+    </header>
+
+    <!-- System Disclaimer Banner -->
+    <div class="disclaimer-banner">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"/>
+        <line x1="12" y1="8" x2="12" y2="12"/>
+        <line x1="12" y1="16" x2="12.01" y2="16"/>
+      </svg>
+      <span><strong>AI Assistance Notice:</strong> This system generates suggested email responses for human review and editing. It does not send emails autonomously.</span>
+    </div>
+
+    <!-- Main Workspace Layout -->
+    <main class="workspace-grid">
+      <!-- Input Panel -->
+      <section class="panel input-panel">
+        <div class="panel-header">
+          <h2>Input Email Details</h2>
+          <div class="mode-toggle">
+            <label class="toggle-btn active" id="btn-mode-gen">Suggest Response</label>
+            <label class="toggle-btn" id="btn-mode-eval">Generate & Evaluate</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="incoming-email">Incoming Email <span class="required">*</span></label>
+          <textarea id="incoming-email" rows="8" placeholder="Paste incoming email message here... e.g. 'Hi, can we schedule a 30-minute sync on Thursday at 2 PM to review the Q3 roadmap?'"></textarea>
+        </div>
+
+        <div class="form-group hidden" id="reference-reply-group">
+          <label for="reference-reply">Ground Truth Reference Reply <span class="optional">(Optional / Benchmark)</span></label>
+          <textarea id="reference-reply" rows="4" placeholder="Paste target reference reply here for evaluation against ground truth..."></textarea>
+          <p class="field-help">Note: Reference replies are strictly used for evaluation and are never passed to the LLM during generation.</p>
+        </div>
+
+        <div class="action-buttons">
+          <button id="btn-submit" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 2L11 13"/>
+              <path d="M22 2L15 22L11 13L2 9L22 2z"/>
+            </svg>
+            <span id="btn-submit-text">Generate Suggested Reply</span>
+          </button>
+          <button id="btn-clear" class="btn btn-secondary">Clear</button>
+        </div>
+      </section>
+
+      <!-- Output Panel -->
+      <section class="panel output-panel">
+        <div class="panel-header">
+          <h2>Suggested Response & Analysis</h2>
+          <button id="btn-copy" class="btn btn-sm btn-outline hidden">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+            </svg>
+            <span>Copy Response</span>
+          </button>
+        </div>
+
+        <!-- Empty Initial State -->
+        <div id="state-empty" class="state-container">
+          <div class="empty-icon">✉️</div>
+          <h3>Ready for Input</h3>
+          <p>Paste an incoming email on the left and click "Generate Suggested Reply" to retrieve historical context and draft a grounded response.</p>
+        </div>
+
+        <!-- Loading State -->
+        <div id="state-loading" class="state-container hidden">
+          <div class="spinner"></div>
+          <h3>Processing Pipeline</h3>
+          <p id="loading-message">Retrieving historical context & generating grounded LLM response...</p>
+        </div>
+
+        <!-- Error State -->
+        <div id="state-error" class="state-container hidden">
+          <div class="error-icon">⚠️</div>
+          <h3 id="error-title">Processing Error</h3>
+          <p id="error-message">An unexpected error occurred while generating the response.</p>
+        </div>
+
+        <!-- Content Output -->
+        <div id="state-content" class="content-container hidden">
+          <!-- Suggested Reply Box -->
+          <div class="response-card">
+            <div class="card-label">SUGGESTED RESPONSE</div>
+            <div id="response-text" class="response-body"></div>
+          </div>
+
+          <!-- Evaluation Card (If available) -->
+          <div id="evaluation-card" class="evaluation-card hidden">
+            <div class="eval-header">
+              <h3>Response Quality Evaluation</h3>
+              <div class="overall-badge" id="overall-badge">
+                <span class="score-value" id="overall-score-num">--</span>
+                <span class="score-max">/ 100</span>
+              </div>
+            </div>
+
+            <p class="eval-explanation" id="eval-explanation"></p>
+
+            <!-- 5 Dimension Metrics Progress Bars -->
+            <div class="metrics-grid">
+              <div class="metric-item">
+                <div class="metric-info">
+                  <span class="metric-name">Semantic Similarity (25%)</span>
+                  <span class="metric-val" id="val-semantic">--</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" id="fill-semantic"></div></div>
+              </div>
+
+              <div class="metric-item">
+                <div class="metric-info">
+                  <span class="metric-name">Relevance (20%)</span>
+                  <span class="metric-val" id="val-relevance">--</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" id="fill-relevance"></div></div>
+              </div>
+
+              <div class="metric-item">
+                <div class="metric-info">
+                  <span class="metric-name">Completeness (20%)</span>
+                  <span class="metric-val" id="val-completeness">--</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" id="fill-completeness"></div></div>
+              </div>
+
+              <div class="metric-item">
+                <div class="metric-info">
+                  <span class="metric-name">Professional Tone (15%)</span>
+                  <span class="metric-val" id="val-tone">--</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" id="fill-tone"></div></div>
+              </div>
+
+              <div class="metric-item">
+                <div class="metric-info">
+                  <span class="metric-name">Factual Consistency (20%)</span>
+                  <span class="metric-val" id="val-factuality">--</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" id="fill-factuality"></div></div>
+              </div>
+            </div>
+
+            <!-- Strengths & Issues Tags -->
+            <div class="tags-section">
+              <div class="tag-group" id="group-strengths">
+                <h4>Strengths</h4>
+                <div class="tags-wrapper" id="wrapper-strengths"></div>
+              </div>
+              <div class="tag-group" id="group-issues">
+                <h4>Issues / Gaps</h4>
+                <div class="tags-wrapper" id="wrapper-issues"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Retrieved Examples Accordion -->
+          <div class="retrieved-section">
+            <div class="section-title">
+              <h3>Retrieved Grounding Examples <span id="example-count" class="count-pill">0</span></h3>
+              <span class="subtitle-sm">Top-k historical training pairs retrieved via FAISS vector search</span>
+            </div>
+            <div id="retrieved-list" class="retrieved-list"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
